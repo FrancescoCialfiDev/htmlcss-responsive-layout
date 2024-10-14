@@ -103,7 +103,7 @@ h1{
     color: var(--color-dark-text);
 }
 .container{
-    max-width: 576px;
+    max-width: 526px;
     margin: 0 auto;
    
 }
@@ -126,7 +126,11 @@ img{
 }
 
 /* Social Section */
-
+.social p{
+    color: black;
+    padding-left: 5px;
+    display: none;
+}
 .social{
     display: flex;
     justify-content: space-between;
@@ -221,17 +225,14 @@ padding: 5px;
 
     
     .container{
-    max-width: 768px;
-    margin: 0 auto;
+    max-width: 718px;
     }
     .ad img{                    
         display: block;
     }
     .social a{
         padding: 11px 49px;
-    background-color: white;
     border-radius: 59px 59px;
-    box-shadow: 5px 10px 18px #888888;
     
     }
     .intestazione span{
@@ -247,5 +248,41 @@ padding: 5px;
     }
 
 }
-    
 
+@media screen and (min-width: 992px){
+    
+    .container{
+        max-width: 942px;
+        }
+    .social p{
+        display: inline-block;
+    }
+
+    .flex{
+        width: 100%;
+        display: flex;
+        border: 1px solid red;
+    }
+    
+    .immagine img{
+        height: 100%;
+        width: 90%;
+        border: 1px solid red;
+        
+    }
+    .in-breve{
+        width: 40%;
+        border: 1px solid red;
+    }
+
+    .social{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .social a{
+        padding: 11px 20px;
+    
+    }
+
+    }  
