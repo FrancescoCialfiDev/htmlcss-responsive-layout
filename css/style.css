@@ -263,37 +263,30 @@ padding: 5px;
     .flex{
         display: flex;
         width: 100%;
-        border: 1px solid red;
     }
     .immagine img{
         width: 100%;
-        border: 1px solid red;
         
     }
     .in-breve {
         flex-direction: column;
         display: flex;
-        border: 1px solid red;
         padding: 0;
         width: 40%;
         padding-left: 15px;
         padding-top: 10px;
     }
-
     .social{
         justify-content: space-between;
         flex-wrap: nowrap;
     }
-
     .social a{
         padding: 11px 20px;
     
     }
-
     .presentation img{
         width: 30%;
     }
-
     .social i{
         vertical-align: middle;
     }
@@ -301,7 +294,6 @@ padding: 5px;
         font-size: 15px;
         vertical-align: middle;
     }
-
     .flex-col{
         flex-direction: row;
         justify-content: space-between;
@@ -315,7 +307,6 @@ padding: 5px;
         
         align-items: center;
         justify-content: space-between;
-        border: 1px solid red;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
