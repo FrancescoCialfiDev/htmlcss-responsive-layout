@@ -252,27 +252,32 @@ padding: 5px;
 @media screen and (min-width: 992px){
     
     .container{
-        max-width: 942px;
+        max-width: 972px;
         }
     .social p{
         display: inline-block;
     }
-
-    .flex{
+    .flex-list li{
         width: 100%;
+    }
+    .flex{
         display: flex;
+        width: 100%;
         border: 1px solid red;
     }
-    
     .immagine img{
-        height: 100%;
-        width: 90%;
+        width: 100%;
         border: 1px solid red;
         
     }
-    .in-breve{
-        width: 40%;
+    .in-breve {
+        flex-direction: column;
+        display: flex;
         border: 1px solid red;
+        padding: 0;
+        width: 40%;
+        padding-left: 15px;
+        padding-top: 10px;
     }
 
     .social{
@@ -285,4 +290,39 @@ padding: 5px;
     
     }
 
-    }  
+    .presentation img{
+        width: 30%;
+    }
+
+    .social i{
+        vertical-align: middle;
+    }
+    .social p{
+        font-size: 15px;
+        vertical-align: middle;
+    }
+
+    .flex-col{
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: start;
+    }
+    footer li{   
+        padding: 0 20px;
+            width: auto;
+        }
+    .flex-footer{
+        
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+     }
+
+     iframe{
+        display: block;
+        aspect-ratio: 16 / 9;
+     }
+}
