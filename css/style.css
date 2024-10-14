@@ -88,8 +88,9 @@ h1{
     opacity: 0.3;
 
 }
-.intestazione h4{
-    font-size: 20px;
+.intestazione h2{
+    padding: 15px 0;
+    font-size: 25px;
     width: 100%;
     color: var(--color-dark-text);
 }
@@ -158,6 +159,10 @@ color: rgba(230, 34, 34, 1);
 .presentation p{
     font-size: 22px;
 }
+.float p{
+    font-size: 18px;
+    padding-bottom: 40px;
+}
 hr{
     width: 12%;
     margin-top: 10px;
@@ -192,6 +197,12 @@ padding: 5px;
 }
 .small-container{
     width: 100%;
+}
+
+/* AD */
+.ad img{
+    margin-top: 50px;
+    display: none;
 }
 
 
