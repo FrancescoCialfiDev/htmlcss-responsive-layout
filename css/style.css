@@ -321,8 +321,5 @@ padding: 5px;
         flex-wrap: nowrap;
      }
 
-     iframe{
-        display: block;
-        aspect-ratio: 16 / 9;
-     }
+     
 }
