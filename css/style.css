@@ -1,12 +1,10 @@
 /* Global Styles */
 /* Reset */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --color-white: #ffffff;
     --color-bg-color: #F6F5F3;
@@ -17,33 +15,42 @@
     --color-icon-red: #ea5556;
     --color-icon-blue: #2871f0;
 }
-
 .nerko-one-regular {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
   }
-
 ol{
     list-style: none;
 }
-
 li, h4{
     font-size: 15px;
     line-height: 40px;
 }
-
 body{
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
 /* Debug */
-
 .debug{
     border: 1px solid red;
 }
 
 /* Utilitues */
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Background */
 .bg-white{
     background-color: var(--color-white);
@@ -61,7 +68,6 @@ header, footer{
     min-height: 70px;
     padding: 20px;
 }
-
 h1{
     text-align: center;
     color: var(--color-contrast);
@@ -74,9 +80,8 @@ h1{
 /* Main */
 /* First Section */
 
-.tiramisu{
+.contenuto{
     padding: 25px;
-    margin: 0 auto;
 }
 .intestazione p{ 
     font-size: 14px;
@@ -90,6 +95,7 @@ h1{
 }
 .container{
     max-width: 576px;
+    margin: 0 auto;
    
 }
 .contenitore{
@@ -116,6 +122,7 @@ img{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 .social a{
     padding: 10px 15px;
@@ -141,6 +148,52 @@ color: rgba(230, 34, 34, 1);
 #youtube{
 color: rgba(230, 34, 34, 1);
 }
+
+
+/* Second Section */
+
+.presentation{
+    margin-top: 60px;
+}
+.presentation p{
+    font-size: 22px;
+}
+hr{
+    width: 12%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid var(--color-contrast);
+}
+.presentation img{
+    width: 50%;
+}
+.float img{
+    float: left;
+    padding-right: 18px;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: left;
+}
+
+/* Footer */
+footer li a{   
+    color: var(--color-white);
+    }
+footer li{   
+padding: 5px;
+    font-size: 0.92em;
+    width: calc(100% / 4);
+    
+}
+.color-text{
+    color: var(--color-white);
+}
+.small-container{
+    width: 100%;
+}
+
 
 
 
